@@ -11,6 +11,8 @@
 		4E3DEA312A2E84DA0059C4AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3DEA302A2E84DA0059C4AD /* ContentView.swift */; };
 		4E3DEA332A2E84DB0059C4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DEA322A2E84DB0059C4AD /* Assets.xcassets */; };
 		4E3DEA362A2E84DB0059C4AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3DEA352A2E84DB0059C4AD /* Preview Assets.xcassets */; };
+		4ED392252A59D4D5005441E3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED392242A59D4D5005441E3 /* Question.swift */; };
+		4ED392272A59D812005441E3 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED392262A59D812005441E3 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4E3DEA302A2E84DA0059C4AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E3DEA322A2E84DB0059C4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E3DEA352A2E84DB0059C4AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ED392242A59D4D5005441E3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		4ED392262A59D812005441E3 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		4E3DEA2D2A2E84DA0059C4AD /* Random History */ = {
 			isa = PBXGroup;
 			children = (
+				4ED392262A59D812005441E3 /* ChoiceTextView.swift */,
+				4ED392242A59D4D5005441E3 /* Question.swift */,
 				4E3DEA2E2A2E84DA0059C4AD /* Random_HistoryApp.swift */,
 				4E3DEA302A2E84DA0059C4AD /* ContentView.swift */,
 				4E3DEA322A2E84DB0059C4AD /* Assets.xcassets */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED392252A59D4D5005441E3 /* Question.swift in Sources */,
 				4E3DEA312A2E84DA0059C4AD /* ContentView.swift in Sources */,
+				4ED392272A59D812005441E3 /* ChoiceTextView.swift in Sources */,
 				4E3DEA2F2A2E84DA0059C4AD /* Random_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
